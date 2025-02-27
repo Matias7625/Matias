@@ -18,6 +18,6 @@ col1, col2 = st.dolumns(2)
 with col1:
   st.subheader("Esta es una columna")
   st.write("Las interfaces multimodales mejoran la experiencia de usuario")
-  respecto = st.checkbox("Estoy de acuerdo")
+  resp = st.checkbox("Estoy de acuerdo")
   if resp:
     st.write("Correcto")
