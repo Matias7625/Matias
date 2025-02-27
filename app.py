@@ -13,7 +13,7 @@ st.image(image, caption="Interfaces multimodales")
 texto = st.text_input("Escribe algo", "Este es mi texto")
 st. write("El texto escrito es", texto)
 
-col1, col2 = st.dolumns(2)
+col1, col2 = st.columns(2)
 
 with col1:
   st.subheader("Esta es una columna")
